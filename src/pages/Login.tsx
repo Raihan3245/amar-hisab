@@ -55,7 +55,7 @@ export default function Login({ onLogin }: LoginProps) {
           <div className="text-4xl mb-3">💰</div>
 
           <h1 className="text-2xl font-bold text-slate-800">
-            Expense Tracker
+            আমার হিসাব
           </h1>
 
           <p className="text-sm text-slate-500 mt-1">
