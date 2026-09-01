@@ -360,59 +360,8 @@ export default function Settings({
 
           <p className="text-slate-700 font-semibold text-sm px-4 pt-4 pb-2">
             পছন্দসমূহ
-          </p>
-
-          <SettingRow
-            icon="💱"
-            label="মুদ্রা"
-            right={
-              <select
-                value={currency}
-                onChange={(e) =>
-                  setCurrency(e.target.value)
-                }
-                className="text-teal-600 font-medium text-sm bg-teal-50 border-none rounded-xl px-3 py-1 outline-none"
-              >
-                <option value="BDT">
-                  BDT (৳)
-                </option>
-
-                <option value="USD">
-                  USD ($)
-                </option>
-
-                <option value="EUR">
-                  EUR (€)
-                </option>
-              </select>
-            }
-          />
-
-          <Divider />
-
-          <SettingRow
-            icon="🔔"
-            label="বিজ্ঞপ্তি"
-            right={
-              <Toggle
-                value={notifications}
-                onChange={setNotifications}
-              />
-            }
-          />
-
-          <Divider />
-
-          <SettingRow
-            icon="🌙"
-            label="ডার্ক মোড"
-            right={
-              <Toggle
-                value={darkMode}
-                onChange={setDarkMode}
-              />
-            }
-          />
+         
+         
         </div>
 
         {/* Data */}
