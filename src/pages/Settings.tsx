@@ -333,28 +333,6 @@ export default function Settings({
           </div>
         </div>
 
-        {/* Budget */}
-        <div className="bg-white rounded-2xl p-4 shadow-sm">
-          <p className="text-slate-700 font-semibold text-sm mb-3">
-            মাসিক বাজেট
-          </p>
-
-          <div className="flex items-center gap-2 bg-slate-50 rounded-xl px-4 py-3 border border-slate-200">
-            <span className="text-teal-600 font-bold">
-              ৳
-            </span>
-
-            <input
-              type="number"
-              value={budget}
-              onChange={(e) =>
-                setBudget(e.target.value)
-              }
-              className="flex-1 bg-transparent outline-none text-slate-700 text-sm"
-            />
-          </div>
-        </div>
-
         {/* Data */}
         <div className="bg-white rounded-2xl shadow-sm overflow-hidden">
 
