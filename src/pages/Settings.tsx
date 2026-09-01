@@ -355,15 +355,6 @@ export default function Settings({
           </div>
         </div>
 
-        {/* Preferences */}
-        <div className="bg-white rounded-2xl shadow-sm overflow-hidden">
-
-          <p className="text-slate-700 font-semibold text-sm px-4 pt-4 pb-2">
-            পছন্দসমূহ
-         
-         
-        </div>
-
         {/* Data */}
         <div className="bg-white rounded-2xl shadow-sm overflow-hidden">
 
@@ -397,23 +388,7 @@ export default function Settings({
           <p className="text-slate-700 font-semibold text-sm px-4 pt-4 pb-2">
             অ্যাপ সম্পর্কে
           </p>
-
-          <ActionRow
-            icon="📋"
-            label="শর্তাবলী ও নীতিমালা"
-            color="text-slate-700"
-          />
-
-          <Divider />
-
-          <ActionRow
-            icon="⭐"
-            label="অ্যাপটি রেটিং দিন"
-            color="text-slate-700"
-          />
-
-          <Divider />
-
+          
           <div className="flex items-center gap-3 px-4 py-3">
             <span className="text-xl">
               ℹ️
